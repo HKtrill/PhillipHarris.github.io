@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Boats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #0077be;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        nav {
+            background-color: #005f8b;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        .boat-types {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .boat-type {
+            flex-basis: 48%;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #0077be;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>All About Boats</h1>
+        <p>Exploring the fascinating world of watercraft</p>
+    </header>
+    
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#types">Types of Boats</a>
+        <a href="#history">History</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+        <section id="introduction">
+            <h2>Introduction to Boats</h2>
+            <p>Boats have been an essential part of human civilization for thousands of years. From simple rafts to complex modern vessels, boats have enabled transportation, trade, exploration, and recreation across the world's waterways.</p>
+            <p>Today, boats continue to play vital roles in commerce, leisure, and scientific research, with designs optimized for specific water conditions and purposes.</p>
+        </section>
+        
+        <section id="types">
+            <h2>Types of Boats</h2>
+            <div class="boat-types">
+                <div class="boat-type">
+                    <h3>Sailboats</h3>
+                    <p>Sailboats harness wind power using sails. They range from small dinghies to large yachts and traditional tall ships. Modern sailboats often combine traditional sailing techniques with advanced materials and navigation technology.</p>
+                </div>
+                <div class="boat-type">
+                    <h3>Motorboats</h3>
+                    <p>Powered by engines rather than wind, motorboats include speedboats, cruisers, and fishing boats. They offer reliable transportation regardless of wind conditions and are popular for recreation and practical uses.</p>
+                </div>
+                <div class="boat-type">
+                    <h3>Canoes & Kayaks</h3>
+                    <p>These human-powered boats have ancient origins. Canoes are open vessels paddled with a single-bladed paddle, while kayaks are enclosed and use double-bladed paddles. Both are popular for recreation and sport.</p>
+                </div>
+                <div class="boat-type">
+                    <h3>Commercial Vessels</h3>
+                    <p>This category includes cargo ships, tankers, fishing trawlers, and passenger ferries. These workhorses of the maritime world transport goods and people across oceans and waterways worldwide.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="history">
+            <h2>History of Boats</h2>
+            <p>The earliest boats date back to prehistoric times, with evidence of dugout canoes from around 8,000 BCE. Ancient civilizations like the Egyptians, Greeks, and Vikings developed increasingly sophisticated vessels for trade, war, and exploration.</p>
+            <p>The Age of Sail (16th-19th centuries) saw dramatic advances in shipbuilding and navigation, enabling global exploration and trade. The Industrial Revolution brought steam power, followed by diesel and nuclear propulsion in modern times.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Interested in learning more about boats? Fill out the form below or email us at info@allaboutboats.example.</p>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 All About Boats. Created for educational purposes.</p>
+    </footer>
+</body>
+</html>
